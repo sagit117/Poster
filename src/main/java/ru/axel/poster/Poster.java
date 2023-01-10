@@ -22,7 +22,7 @@ public final class Poster implements IPoster {
     private Poster() {
     }
 
-    static IPoster getInstance() {
+    public static IPoster getInstance() {
         return Poster.instance;
     }
 
