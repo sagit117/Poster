@@ -7,7 +7,7 @@ public class Main {
         final IPoster poster = Poster.getInstance()
             .setHostName("smtp.mail.ru")
             .setSmtpPort(465)
-            .setAuthenticator("zerozone.mailer@mail.ru", "".toCharArray())
+            .setAuthenticator("zerozone.mailer@mail.ru", "")
             .setSSLOnConnect(true)
             .setFrom("zerozone.mailer@mail.ru")
             .setCharSet("utf-8")

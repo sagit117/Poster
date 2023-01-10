@@ -51,8 +51,8 @@ public final class Poster implements IPoster {
     }
 
     @Override
-    public IPoster setAuthenticator(String user, char[] password) {
-        DefaultAuthenticator authenticator = new DefaultAuthenticator(user, String.valueOf(password));
+    public IPoster setAuthenticator(String user, String password) {
+        DefaultAuthenticator authenticator = new DefaultAuthenticator(user, password);
         htmlEmail.setAuthenticator(authenticator);
         return instance;
     }

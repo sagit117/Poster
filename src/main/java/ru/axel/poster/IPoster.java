@@ -11,7 +11,7 @@ public interface IPoster {
 
     IPoster setSmtpPort(int smtpPort);
 
-    IPoster setAuthenticator(String user, char[] password);
+    IPoster setAuthenticator(String user, String password);
 
     IPoster setSSLOnConnect(boolean sslOnConnect);
 
